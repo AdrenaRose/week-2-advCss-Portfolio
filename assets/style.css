@@ -5,7 +5,6 @@
 body {
   background-color: #a5bdfd;
   margin: auto;
-  width: 90%;
   display: flex;
   flex-direction: column;
 }
@@ -16,11 +15,9 @@ header {
   background-color: #dcb5ff;
   border-bottom: 5px solid black;
   padding: 10px;
-  width: auto;
 }
 
 nav {
-  padding: 10px;
   background-color: #d9f2ff;
   border-bottom: 5px solid black;
   margin-bottom: 10px;
@@ -33,25 +30,22 @@ ul {
   flex-wrap: wrap;
 }
 
-@media screen and (max-width:632px) {
+@media screen and (max-width: 768px) {
   ul {
     flex-direction: column;
+    align-items: center;
   }
 }
 
 a {
-  /* flex-direction: column; */
   font-size: 24px;
-  padding: 0 25px 0 25px;
-}
-
-li {
-  line-height: 30px;
+  display: block;
+  padding: 5px;
 }
 
 img {
   border-radius: 15px;
-  flex-shrink: 1;
+  max-width: 100%;
 }
 
 #about {
@@ -66,7 +60,6 @@ img {
   border-bottom: 5px solid black;
   background-color: #d9f2ff;
   margin-top: 10px;
-  padding: 10px;
 }
 
 .facts {
