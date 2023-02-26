@@ -55,6 +55,16 @@ img {
 #about {
   display: flex;
   flex-wrap: wrap;
+  border-bottom: 5px solid black;
+  padding-bottom: 10px;
+}
+
+#contact {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  background-color: #d9f2ff;
+  margin-top: 10px;
+  padding: 10px;
 }
 
 .facts {
