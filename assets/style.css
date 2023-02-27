@@ -56,6 +56,8 @@ a {
 
 img {
   border-radius: 15px;
+  max-width: 400px;
+  flex-basis: 1 1 auto;
 }
 
 #about {
