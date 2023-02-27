@@ -22,7 +22,8 @@ nav {
   border-bottom: 5px solid black;
 }
 
-ul {
+.nav,
+.contact {
   display: flex;
   justify-content: space-evenly;
   margin: 10px;
