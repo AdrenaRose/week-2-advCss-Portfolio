@@ -30,6 +30,15 @@ nav {
   flex-wrap: wrap;
 }
 
+h2 {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  background-color: #77529e;
+  margin-block: 5px;
+}
+
 @media screen and (max-width: 768px) {
   ul {
     flex-direction: column;
