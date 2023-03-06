@@ -27,12 +27,13 @@ header {
   padding: 10px;
 }
 
-nav {
+nav,
+h1 {
   background-color: var(--background2);
   border-bottom: 5px solid black;
 }
 
-.nav-links,
+.nav,
 .contact {
   display: flex;
   justify-content: space-evenly;
@@ -79,7 +80,7 @@ h2 {
   display: flex;
 }
 
-img {
+.headshot {
   border-radius: 15px;
   max-width: 400px;
   flex-basis: 1 1 auto;
@@ -123,8 +124,39 @@ img {
 #creations {
   display: flex;
   flex-direction: column;
+  margin: 10px;
 }
 
-.cssCheat {
-text-align: center;
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #77529e;
+  padding: 15px;
+  margin-bottom: 5px;
+}
+
+.cssCheat,
+.fairy,
+.study {
+  position: relative;
+}
+
+.cssCheat img,
+.fairy img,
+.study img {
+  max-width: 55%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.description {
+  text-decoration: none;
+  padding: 8px;
+  border: 4px solid white;
+  background-color: black;
+  color: #dcb5ff;
+  max-width: 625px;
+  height: 450px;
 }
