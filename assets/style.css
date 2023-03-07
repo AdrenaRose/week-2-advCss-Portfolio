@@ -23,43 +23,20 @@ header {
   text-align: center;
   font-size: 48px;
   background-color: #dcb5ff;
-  border-bottom: 5px solid black;
   padding: 10px;
 }
 
 nav {
   background-color: var(--background2);
-  border-bottom: 5px solid black;
+  border-block: 5px solid black;
 }
 
-.nav-links,
+.nav,
 .contact {
   display: flex;
   justify-content: space-evenly;
   margin: 10px;
   flex-wrap: wrap;
-}
-
-h2 {
-  font-size: 36px;
-  color: white;
-  text-align: center;
-  padding: 8px;
-  background-color: var(--headings);
-  margin-block: 5px;
-}
-
-@media screen and (max-width: 768px) {
-  ul {
-    flex-direction: column;
-    align-items: center;
-  }
-  img {
-    max-width: 100%;
-  }
-  .facts {
-    padding-top: 10px;
-  }
 }
 
 .nav-links,
@@ -75,31 +52,29 @@ h2 {
   text-decoration: none;
 }
 
-.image {
-  display: flex;
-}
-
-img {
-  border-radius: 15px;
-  max-width: 400px;
-  flex-basis: 1 1 auto;
-  align-items: center;
-}
-
 #about {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   border-bottom: 5px solid black;
   padding-block: 20px;
   padding-inline: 20px;
 }
 
-#contact {
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
-  background-color: #d9f2ff;
-  margin-top: 10px;
+h2 {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  background-color: var(--headings);
+  margin-block: 5px;
+}
+
+.headshot {
+  border-radius: 15px;
+  max-width: 400px;
+  flex-basis: 1 1 auto;
 }
 
 .facts {
@@ -114,17 +89,69 @@ img {
   padding-left: 25px;
 }
 
-.card h1 {
-  font-size: 32px;
+h1 {
   text-align: center;
-  margin-top: 5px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #77529e;
+  padding: 15px;
+  margin-bottom: 5px;
+  background-color: var(--background2);
+  border-bottom: 5px solid black;
 }
 
 #creations {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 
-.cssCheat {
-text-align: center;
+.container {
+  max-width: 950px;
+}
+
+.row {
+  display: flex;
+}
+
+.description {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  background-color: var(--headings);
+  border: 2px solid black;
+}
+
+.fairy,
+.study {
+  margin-inline: 3px;
+  flex-basis: 1 1 auto;
+}
+
+.cssCheat img,
+.fairy img,
+.study img {
+  width: 100%;
+  border: 2px solid black;
+  flex-basis: 1 1 auto;
+}
+
+#contact {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  background-color: #d9f2ff;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  img {
+    max-width: 100%;
+  }
+  .facts {
+    padding-top: 10px;
+  }
 }
