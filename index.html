@@ -9,9 +9,7 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
-    <header>
-      Aspiring Web Developer
-    </header>
+    <header>Aspiring Web Developer</header>
 
     <nav>
       <ul class="nav">
@@ -19,22 +17,21 @@
           <a class="nav-links" href="#about">About Me</a>
         </li>
         <li>
-          <a class="nav-links" href="#portfolio">My Creations</a>
+          <a class="nav-links" href="#creations">My Creations</a>
         </li>
         <li>
-          <a class="nav-links" href="#contact" target="#contact"> Contact Me</a>
+          <a class="nav-links" href="#contact"> Contact Me</a>
         </li>
       </ul>
     </nav>
 
     <main>
       <section id="about">
-        <div class="image">
-          <img class="headshot"
+        <img
+            class="headshot"
             src="./assets/headshot.jpg"
             alt="professional photo of woman with long wavy brown hair wearing a colorful dress in front of a lake"
           />
-        </div>
         <div class="facts">
           <h2>The Basics</h2>
           <ul class="facts-content">
@@ -49,7 +46,6 @@
                 <li>Bookkeeping</li>
               </ul>
             </li>
-
             <li>SheCodes Basics Certificate Holder</li>
             <li>
               UofR Coding bootcamp student - expected graduation August 2023
@@ -66,44 +62,54 @@
       </section>
       <h1>Portfolio</h1>
       <section id="creations">
-        <div class="cssCheat">
-          <div class="description">
-            <p>CSS Cheatsheet</p>
-            <p>HTML/CSS</p>
-          </div>
-          <a href="https://adrenarose.github.io/css-cheatsheet/" target="blank">
-            <img
-              src="assets/CSS Cheat.PNG"
-              alt="A rendering of Charlene's CSS cheatsheet project page"
-            />
-          </a>
-        </div>
-        <div class="fairy">
-          <a href="https://adrenarose.github.io/fairy_website/" target="blank">
+        <div class="container">
+          <div class="cssCheat">
             <div class="description">
-              <p>Fairy Website</p>
+              <p>CSS Cheatsheet</p>
               <p>HTML/CSS</p>
             </div>
-            <img
-              src="assets/Fairy.PNG"
-              alt="A rendering of Charlene's website about fairies"
-            />
-          </a>
-        </div>
-        <div class="study">
-          <a
-            href="https://adrenarose.github.io/prework-study-guide/"
-            target="blank"
-          >
-            <div class="description">
-              <p>Bootcamp Study Guide</p>
-              <p>HTML/CSS/JavaScript</p>
+            <a
+              href="https://adrenarose.github.io/css-cheatsheet/"
+              target="blank"
+            >
+              <img
+                src="assets/CSS Cheat.PNG"
+                alt="A rendering of Charlene's CSS cheatsheet project page"
+              />
+            </a>
+          </div>
+          <div class="row">
+            <div class="fairy">
+              <a
+                href="https://adrenarose.github.io/fairy_website/"
+                target="blank"
+              >
+                <div class="description">
+                  <p>Fairy Website</p>
+                  <p>HTML/CSS</p>
+                </div>
+                <img
+                  src="assets/Fairy.PNG"
+                  alt="A rendering of Charlene's website about fairies"
+                />
+              </a>
             </div>
-            <img
-              src="assets/Study Guide.PNG"
-              alt="A rendering of Charlene's web development online study guide"
-            />
-          </a>
+            <div class="study">
+              <a
+                href="https://adrenarose.github.io/prework-study-guide/"
+                target="blank"
+              >
+                <div class="description">
+                  <p>Bootcamp Study Guide</p>
+                  <p>HTML/CSS/JavaScript</p>
+                </div>
+                <img
+                  src="assets/Study Guide.PNG"
+                  alt="A rendering of Charlene's web development online study guide"
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </section>
       <section id="contact">
@@ -114,12 +120,12 @@
             >
           </li>
           <li>
-            <a class="contact-links" href="linkedin.com/charlenejparker"
+            <a class="contact-links" href="https://www.linkedin.com/in/charlene-parker-a0607825b/" target="blank"
               >LinkedIn</a
             >
           </li>
           <li>
-            <a class="contact-links" href="github.com/adrenarose">Git Hub</a>
+            <a class="contact-links" href="https://github.com/AdrenaRose" target="blank">Git Hub</a>
           </li>
         </ul>
       </section>
